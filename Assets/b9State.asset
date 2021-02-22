@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be401b1d2452d8478e1a0c9487097f8, type: 3}
+  m_Name: b9State
+  m_EditorClassIdentifier: 
+  storyText: 'The sound of the seagulls soothe me as if I was on vacation.
+
+
+    Nothing
+    to be seen here, juste the sand out of sight.'
+  nextStates:
+  - choiceSentence: Go North-East
+    state: {fileID: 11400000, guid: 7392fd428d5b6fd4493ef56fcc0e2a9d, type: 2}
+  - choiceSentence: Go South-West
+    state: {fileID: 0}
+  - choiceSentence: Go toward the trees
+    state: {fileID: 0}

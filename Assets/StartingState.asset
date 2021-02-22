@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be401b1d2452d8478e1a0c9487097f8, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "I am awaken by the sound of waves breaking on the shore.\r\n\nOpening
+    my eyes, I found myself on a beach with nothing else around me but the sea and
+    some palm trees.\r"
+  nextStates:
+  - choiceSentence: Follow the beach to the West
+    state: {fileID: 11400000, guid: c399b4061454f934a834c25de380fb4c, type: 2}
+  - choiceSentence: Follow the beach to the East
+    state: {fileID: 11400000, guid: f1ac862e69b65ac46a643d2c79157410, type: 2}
+  - choiceSentence: Go toward the palm trees
+    state: {fileID: 11400000, guid: 1b2b547ff59af664a8cd17d1e9b2e15f, type: 2}

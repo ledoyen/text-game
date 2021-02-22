@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be401b1d2452d8478e1a0c9487097f8, type: 3}
+  m_Name: b1State
+  m_EditorClassIdentifier: 
+  storyText: 'I found myself looking at the same sea.
+
+
+    A cliff is standing behind
+    me.
+
+
+    My only options are to follow the shore.'
+  nextStates:
+  - choiceSentence: Go North-West
+    state: {fileID: 11400000, guid: 7392fd428d5b6fd4493ef56fcc0e2a9d, type: 2}
+  - choiceSentence: Go South-East
+    state: {fileID: 0}
